@@ -1,5 +1,5 @@
 {
-  "name": "fetchpoc",
+  "name": "poc7",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "packages/**"
   ],
   "scripts":{
-    "poc": "yarn nx run-many --parallel=8 --target=release"
+    "release": "npx  pkg-fetch --node-range node16 --platform linux"
   },
   "devDependencies": {	
 		"nx": "^14.6.3",
